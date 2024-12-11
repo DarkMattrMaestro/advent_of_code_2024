@@ -1,3 +1,4 @@
+package Day10;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -7,7 +8,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 
 public class Day10_part1 {
-  private static final String DATA_LOCATION = "Day10-data.txt";
+  private static final String DATA_LOCATION = "Day10/Day10-data.txt";
   private static ArrayList<ArrayList<Integer>> data = new ArrayList<ArrayList<Integer>>();
 
   public static void main(String[] args) throws FileNotFoundException {
